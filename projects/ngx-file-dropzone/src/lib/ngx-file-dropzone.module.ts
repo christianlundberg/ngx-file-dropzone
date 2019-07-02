@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
-import { NgxFileDropzoneComponent } from './ngx-file-dropzone.component';
+
+import { NgxFileDropzone } from './ngx-file-dropzone.directive';
 
 @NgModule({
-  declarations: [NgxFileDropzoneComponent],
-  imports: [
-  ],
-  exports: [NgxFileDropzoneComponent]
+    declarations: [NgxFileDropzone],
+    exports: [NgxFileDropzone],
 })
-export class NgxFileDropzoneModule { }
+export class NgxFileDropzoneModule {}
